@@ -55,3 +55,16 @@ console.log(mesa7.fechar)
 // console.log(burguer.subTotal());
 // console.log(burguer);
 // console.log(burguer.nome);
+
+
+try {
+
+    mesa7.adicionar(new ItemComanda('suco de manga', 850, 0))
+
+} catch (erro) {
+    console.log('Não entrou ' + erro)
+}
+
+// const suco = new ItemComanda("suco de caju", 750, 0);
+
+console.log("chegou aqui? ............")
